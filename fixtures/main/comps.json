@@ -1,7 +1,7 @@
 [
     {
         "model": "main.components",
-        "pk": 2,
+        "pk": 1,
         "fields": {
             "name": "Гиперэкстензия",
             "componentTechCategory": 7,
@@ -26,7 +26,7 @@
     },
     {
         "model": "main.components",
-        "pk": 3,
+        "pk": 2,
         "fields": {
             "name": "Гиперэкстензия 2",
             "componentTechCategory": 7,
@@ -51,7 +51,7 @@
     },
     {
         "model": "main.components",
-        "pk": 4,
+        "pk": 3,
         "fields": {
             "name": "Г-Стенка с ТБКрюч и Лавкой",
             "componentTechCategory": 7,
@@ -76,7 +76,7 @@
     },
     {
         "model": "main.components",
-        "pk": 5,
+        "pk": 4,
         "fields": {
             "name": "Г-Стенка с ТБКрючСост и Лавкой",
             "componentTechCategory": 7,
@@ -101,7 +101,7 @@
     },
     {
         "model": "main.components",
-        "pk": 6,
+        "pk": 5,
         "fields": {
             "name": "Подвесной телескопический кронштейн для люстры 1",
             "componentTechCategory": 7,
@@ -126,7 +126,7 @@
     },
     {
         "model": "main.components",
-        "pk": 7,
+        "pk": 6,
         "fields": {
             "name": "Разборная стенка",
             "componentTechCategory": 7,
@@ -151,7 +151,7 @@
     },
     {
         "model": "main.components",
-        "pk": 8,
+        "pk": 7,
         "fields": {
             "name": "Потолочная Роликовая Направляющая для Сенсорных Подвесных Тренжеров",
             "componentTechCategory": 7,
@@ -176,7 +176,7 @@
     },
     {
         "model": "main.components",
-        "pk": 9,
+        "pk": 8,
         "fields": {
             "name": "Реабилитационные брусья январь 1",
             "componentTechCategory": 7,
@@ -201,7 +201,7 @@
     },
     {
         "model": "main.components",
-        "pk": 10,
+        "pk": 9,
         "fields": {
             "name": "Детские реабилитационные брусья 2",
             "componentTechCategory": 7,
@@ -226,7 +226,7 @@
     },
     {
         "model": "main.components",
-        "pk": 11,
+        "pk": 10,
         "fields": {
             "name": "Стенка Прямая с ТБСост и Подушкой 2",
             "componentTechCategory": 7,
@@ -251,7 +251,7 @@
     },
     {
         "model": "main.components",
-        "pk": 12,
+        "pk": 11,
         "fields": {
             "name": "Ворота минифутбол",
             "componentTechCategory": 7,
@@ -276,7 +276,7 @@
     },
     {
         "model": "main.components",
-        "pk": 13,
+        "pk": 12,
         "fields": {
             "name": "Гибочная приспособа",
             "componentTechCategory": 7,
@@ -301,7 +301,7 @@
     },
     {
         "model": "main.components",
-        "pk": 14,
+        "pk": 13,
         "fields": {
             "name": "Стеллаж лёгкий",
             "componentTechCategory": 7,
@@ -326,7 +326,7 @@
     },
     {
         "model": "main.components",
-        "pk": 15,
+        "pk": 14,
         "fields": {
             "name": "Трап в гараж",
             "componentTechCategory": 7,
@@ -351,7 +351,7 @@
     },
     {
         "model": "main.components",
-        "pk": 16,
+        "pk": 15,
         "fields": {
             "name": "Турник настенный(потолочный) с отверстиями",
             "componentTechCategory": 7,
@@ -376,7 +376,7 @@
     },
     {
         "model": "main.components",
-        "pk": 17,
+        "pk": 16,
         "fields": {
             "name": "Турник настенный(потолочный) с пластинами",
             "componentTechCategory": 7,
@@ -397,6 +397,31 @@
             "selfCost": "0.00",
             "note": "",
             "slug": "turnik-nastennyjpotolochnyj-s-plastinami"
+        }
+    },
+    {
+        "model": "main.components",
+        "pk": 17,
+        "fields": {
+            "name": "Настенный турник 2",
+            "componentTechCategory": 7,
+            "componentProjCategory": 7,
+            "componentGoal": 2,
+            "source": 1,
+            "chart": "",
+            "sketch": "proj_images/Настенный_турник-рамка.jpg",
+            "photo": "",
+            "demonstrableForm": "",
+            "description": "",
+            "multiplier": 1,
+            "planTime": null,
+            "startDateTame": null,
+            "finishDateTame": null,
+            "price": "50.00",
+            "discount": "1.00",
+            "selfCost": "0.00",
+            "note": "",
+            "slug": "nastennyj-turnik-2"
         }
     }
 ]

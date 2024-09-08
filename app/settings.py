@@ -22,10 +22,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-xke_n7=00^@u*s1lp!23&k2!cod=^*d^pr6s50nxoeru-$#eot'
+#SECRET_KEY = 'django-insecure-xke_n7=00^@u*s1lp!23&k2!cod=^*d^pr6s50nxoeru-$#eot'
+import os
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 
+'django-insecure-xke_n7=00^@u*s1lp!23&k2!cod=^*d^pr6s50nxoeru-$#eot')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
+DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
 ALLOWED_HOSTS = ['*']
 
@@ -138,11 +142,18 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'static')
+]
+
+PROJECT_ROOT = os.path.normpath(os.path.dirname(__file__))
+
+STATIC_ROOT = os.path.join(PROJECT_ROOT,'static')
 STATIC_URL = 'static/'
 
-STATICFILES_DIRS=[
-    BASE_DIR/'static'
-    ]
+#STATICFILES_DIRS=[
+#    BASE_DIR/'static'
+#    ]
 
 MEDIA_URL='media/'
 
