@@ -1,0 +1,1 @@
+[{"model": "main.unitscategories", "pk": 1, "fields": {"name": "Неделимые", "note": "Характерны для целочисленной оценки", "slug": "nedelimye"}}, {"model": "main.unitscategories", "pk": 2, "fields": {"name": "Услуга", "note": "", "slug": "usluga"}}]

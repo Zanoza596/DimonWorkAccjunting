@@ -1,0 +1,82 @@
+[
+    {
+        "model": "main.componentsprojcategories",
+        "pk": 1,
+        "fields": {
+            "name": "Все категории",
+            "parent": 1,
+            "note": "",
+            "slug": "all"
+        }
+    },
+    {
+        "model": "main.componentsprojcategories",
+        "pk": 2,
+        "fields": {
+            "name": "Ворота минифутбол",
+            "parent": 1,
+            "note": "",
+            "slug": "vorota-minifutbol"
+        }
+    },
+    {
+        "model": "main.componentsprojcategories",
+        "pk": 3,
+        "fields": {
+            "name": "Общие Детали (узлы)",
+            "parent": 1,
+            "note": "",
+            "slug": "obshie-detali-uzly"
+        }
+    },
+    {
+        "model": "main.componentsprojcategories",
+        "pk": 4,
+        "fields": {
+            "name": "Приспособы",
+            "parent": 1,
+            "note": "",
+            "slug": "prisposoby"
+        }
+    },
+    {
+        "model": "main.componentsprojcategories",
+        "pk": 5,
+        "fields": {
+            "name": "Стеллаж март .24 легкий",
+            "parent": 1,
+            "note": "",
+            "slug": "stellazh-mart-24-legkij"
+        }
+    },
+    {
+        "model": "main.componentsprojcategories",
+        "pk": 6,
+        "fields": {
+            "name": "Трап в гараж",
+            "parent": 1,
+            "note": "",
+            "slug": "trap-v-garazh"
+        }
+    },
+    {
+        "model": "main.componentsprojcategories",
+        "pk": 7,
+        "fields": {
+            "name": "Тренажеры",
+            "parent": 1,
+            "note": "",
+            "slug": "trenazhery"
+        }
+    },
+    {
+        "model": "main.componentsprojcategories",
+        "pk": 8,
+        "fields": {
+            "name": "Подвесной телескопический кронштейн для люстры 1",
+            "parent": 1,
+            "note": "",
+            "slug": "podvesnoj-teleskopicheskij-kronshtejn-dlya-lyustry-1"
+        }
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "model": "main.sources",
+        "pk": 1,
+        "fields": {
+            "name": "Мы",
+            "address": null,
+            "route": null,
+            "mapChart": "",
+            "mapSketch": "",
+            "mapDemonstrableForm": "",
+            "photo": "",
+            "description": "",
+            "note": "",
+            "slug": "my"
+        }
+    },
+    {
+        "model": "main.sources",
+        "pk": 2,
+        "fields": {
+            "name": "Интернет-магазин пл.Восстания",
+            "address": null,
+            "route": null,
+            "mapChart": "",
+            "mapSketch": "",
+            "mapDemonstrableForm": "",
+            "photo": "",
+            "description": "",
+            "note": "",
+            "slug": "internet-magazin-plvosstaniya"
+        }
+    },
+    {
+        "model": "main.sources",
+        "pk": 3,
+        "fields": {
+            "name": "Нет сведений",
+            "address": null,
+            "route": null,
+            "mapChart": "",
+            "mapSketch": "",
+            "mapDemonstrableForm": "",
+            "photo": "",
+            "description": "",
+            "note": "",
+            "slug": "net-svedenij"
+        }
+    }
+]

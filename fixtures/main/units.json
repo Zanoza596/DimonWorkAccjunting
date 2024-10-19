@@ -1,0 +1,1 @@
+[{"model": "main.units", "pk": 1, "fields": {"name": "шт", "unitCategory": 1, "note": "Штука", "slug": "sht"}}, {"model": "main.units", "pk": 2, "fields": {"name": "Группа швов", "unitCategory": 2, "note": "", "slug": "gruppa-shvov"}}]

@@ -1,0 +1,72 @@
+[
+    {
+        "model": "main.componentstechcategories",
+        "pk": 1,
+        "fields": {
+            "name": "Проект",
+            "parent": null,
+            "note": "",
+            "slug": "proekt"
+        }
+    },
+    {
+        "model": "main.componentstechcategories",
+        "pk": 2,
+        "fields": {
+            "name": "Материал",
+            "parent": null,
+            "note": "",
+            "slug": "material"
+        }
+    },
+    {
+        "model": "main.componentstechcategories",
+        "pk": 3,
+        "fields": {
+            "name": "Обработанный материал",
+            "parent": null,
+            "note": "",
+            "slug": "obrabotannyj-material"
+        }
+    },
+    {
+        "model": "main.componentstechcategories",
+        "pk": 4,
+        "fields": {
+            "name": "Комплектующее",
+            "parent": null,
+            "note": "",
+            "slug": "komplektuyushee"
+        }
+    },
+    {
+        "model": "main.componentstechcategories",
+        "pk": 5,
+        "fields": {
+            "name": "Деталь",
+            "parent": null,
+            "note": "",
+            "slug": "detal"
+        }
+    },
+    {
+        "model": "main.componentstechcategories",
+        "pk": 6,
+        "fields": {
+            "name": "Сборка",
+            "parent": null,
+            "note": "",
+            "slug": "sborka"
+        }
+    },
+    {
+        "model": "main.componentstechcategories",
+        "pk": 7,
+        "fields": {
+            "name": "Компоновка",
+            "parent": null,
+            "note": "",
+            "slug": "komponovka"
+        }
+    }
+]

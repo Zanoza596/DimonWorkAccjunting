@@ -1,0 +1,1 @@
+[{"model": "main.componentsgoals", "pk": 1, "fields": {"name": "Не определена", "parent": null, "note": null, "slug": null}}, {"model": "main.componentsgoals", "pk": 2, "fields": {"name": "Продажа", "parent": null, "note": null, "slug": null}}]
